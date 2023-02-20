@@ -8,7 +8,7 @@ const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
     const [error, setError] = useState<string>('')
 
-    const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
+    const [stateForAllCheckboxes, setChecked] = useState<boolean | undefined>(false)
 
     return (
         <div id={'hw4-stand'} className={s.stand}>
@@ -82,7 +82,7 @@ const Stand = () => {
                         checked={stateForAllCheckboxes}
                         onChangeChecked={setChecked}
                     >
-                        some text
+                        Hometask
                     </SuperCheckbox>
                 </div>
                 {/*совместим со старым кодом:*/}
