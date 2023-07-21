@@ -13,9 +13,8 @@
 }
 
 .imageAndText img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
 
 .text {
@@ -26,7 +25,7 @@
     padding: 10px 25px 10px 13px;
     margin-right: 20px;
     background-color: #0066CC;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .text:after {
@@ -41,11 +40,11 @@
 }
 
 .messageText {
-color: white;
+    color: white;
 }
 
 .time {
-    width: 48px;
+    width: 60px;
     text-align: center;
     margin-top: 5px;
 }
